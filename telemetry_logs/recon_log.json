@@ -1,0 +1,21 @@
+[
+  {
+    "event_id": "USB-REC-20261031203439",
+    "timestamp_utc": "2026-10-31T15:04:39.338157+00:00",
+    "hostname": "DESKTOP-1MV3IAV",
+    "local_ip": "10.156.117.133",
+    "username": "PERSONAL",
+    "domain": "DESKTOP-1MV3IAV",
+    "privilege_level": "STANDARD (Unprivileged User)",
+    "os_type": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26200",
+    "architecture": "AMD64",
+    "python_version": "3.14.6",
+    "working_directory": "C:\\Users\\PERSONAL\\Desktop\\Internship Sqrock",
+    "system_root": "C:\\WINDOWS",
+    "script_hash_sha256": "57758b1048a2b64ef320844be26fe936186648d80e3fd739479326be68d2f253",
+    "threat_classification": "BENIGN_RECONNAISSANCE_SIMULATION",
+    "action_flag": "CANARY_TRIGGERED"
+  }
+]

@@ -1,0 +1,14 @@
+===============================================================================
+       SQROCK IT SOLUTIONS - USB BAITING INCIDENT RECON REPORT                
+===============================================================================
+Incident Event ID   : USB-REC-20261031203439
+Timestamp (UTC)     : 2026-10-31T15:04:39.338157+00:00
+Target Hostname     : DESKTOP-1MV3IAV
+Source IP Address   : 10.156.117.133
+Logged-In Account   : PERSONAL (Domain: DESKTOP-1MV3IAV)
+Privilege Context   : STANDARD (Unprivileged User)
+Operating System    : Windows 11 (AMD64)
+Payload Execution CWD: C:\Users\PERSONAL\Desktop\Internship Sqrock
+Payload SHA-256     : 57758b1048a2b64ef320844be26fe936186648d80e3fd739479326be68d2f253
+Classification      : BENIGN_RECONNAISSANCE_SIMULATION
+===============================================================================

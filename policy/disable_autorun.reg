@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+; ==============================================================================
+; SQROCK IT SOLUTIONS - ENDPOINT DEFENSE AUTOMATION
+; Target: Disabling Windows AutoRun and AutoPlay for Removable Storage Media
+; Standard: CIS Windows 10/11 Benchmark | NIST SP 800-53 MP-7
+; Author: Mohammed Peer Siddiqui
+; ==============================================================================
+
+; Disable AutoRun across all drive classes (0xFF = 255 = All drives)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000ff
+"NoAutorun"=dword:00000001
+
+; Current User Override
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000ff
+"NoAutorun"=dword:00000001
+
+; Prevent AutoPlay execution behavior
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"NoAutoplayfornonVolume"=dword:00000001
+
+; Force Windows Explorer to ALWAYS show file extensions (Neutralize .pdf.exe tricks)
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
